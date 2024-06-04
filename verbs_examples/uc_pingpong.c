@@ -549,7 +549,7 @@ int main(int argc, char *argv[])
 	int                      rcnt, scnt;
 	int                      num_cq_events = 0;
 	int                      sl = 0;
-	int			 gidx = -1;
+	int			 gidx = 2;
 	char			 gid[33];
 
 	srand48(getpid() * time(NULL));
